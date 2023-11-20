@@ -21,7 +21,6 @@ jobs:
         with:
           release-type: elixir
           package-name: use-please-release
-          release-as: 0.1.0
           changelog-types: |
             [
               {"type":"build","section":"🧰 Other","hidden":true},
