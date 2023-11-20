@@ -21,8 +21,9 @@ defmodule UsePleaseRelease.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:please_release,
+       git: "https://github.com/jgallinari/please-release.git",
+       ref: "81f9e9fe070cb79f9a9420cf7d0b1b77d3ba0728"}
     ]
   end
 end
